@@ -55,7 +55,7 @@ Export.image.toDrive({
 });
 ```
 
-## Downloading Roads Data from DataBC
+## Downloading Roads & Coastline Data from DataBC
 
 To conduct the analysis, we’ll also need a roads layer.  This data set is available for download from [DataBC](https://www.data.gov.bc.ca/).  Follow the video instructions to inspect the metadata and request a download. 
 
@@ -69,3 +69,7 @@ To conduct the analysis, we’ll also need a roads layer.  This data set is avai
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5jaULGb5ux4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+**3)** Using the same procedure, download coastline data.
+* Search for Coastline
+* Make sure to download the layer titled: "NTS BC Coastline Lines 1:250,000 - Digital Baseline Mapping (NTS)"
+<img src="Coastline.png" alt="hi" class="inline"/>
