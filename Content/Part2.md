@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Acquire Data
-nav_order: 2
+nav_order: 3
 ---
 
 # Acquire Data
@@ -72,4 +72,5 @@ To conduct the analysis, we’ll also need a roads layer.  This data set is avai
 **3)** Using the same procedure, download coastline data.
 * Search for Coastline
 * Make sure to download the layer titled: "NTS BC Coastline Lines 1:250,000 - Digital Baseline Mapping (NTS)"
+
 <img src="Coastline.png" alt="hi" class="inline"/>

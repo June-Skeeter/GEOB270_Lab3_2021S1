@@ -6,7 +6,9 @@ nav_order: 2
 
 # Framing the Problem
 
-Just off of the West Coast of Vancouver Island, is the Canadian Subduction Zone (CSZ). Until recently, the common scientific theory was that the CSZ was incapable of producing megathrust earthquakes and their associated Tsunami’s because “no sizable earthquake has occurred on it since European settlement began” (Ludwin et al. 2005).
+Just off of the West Coast of Vancouver Island, is the [Canadia Subduction Zone (CSZ)](https://en.wikipedia.org/wiki/Cascadia_subduction_zone). Until recently, the common scientific theory was that the CSZ was incapable of producing megathrust earthquakes and their associated Tsunami’s because “no sizable earthquake has occurred on it since European settlement began” (Ludwin et al. 2005).
+
+<img src="CSZ.png" alt="hi" class="inline"/>
 
 Despite the scientific communities’ assumptions that the CSZ was not a threat, knowledge of the destructive potential of the CSZ was preserved in the oral histories of coastal indigenous peoples from British Columbia to Northern California.  There are numerous histories describing a massive earthquake and tsunami that occurred sometime around 1700.  These histories were transcribed between 1860 and 1964.  Read the highlighted sections of Ludwin et al. (2005) that was provided in the Lab3_Data folder.
 
