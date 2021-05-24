@@ -17,7 +17,7 @@ Upload Map 1 to canvas.
 
 ## Map 2
 
-Create a map showing the Inundation Zone and the properties at risk (not the output from the properties erase), classified by ZoneCode.  Use the ZoningCode.csv file you were given to label the different property types accordingly.
+Create a map showing the Inundation Zone and the properties at risk (not the output from the properties erase), classified by ZoneCode.  
 
 ## Question 10)
 Upload Map 2 to canvas.
@@ -30,7 +30,18 @@ Create a map showing the Inundation Zone, Population_at_Risk_Clip layer classifi
 Upload Map 3 to canvas.
 
 ## Report
-Write a report for the City of Port Alberin.  The report should briefly summarize the analysis steps you used to conduct the Tsunami Risk Assessment.  Reference your maps where applicable and also reference statistics where necessary (eg. the lenght of different road types in the Inundation Zone).
+Write a report for the City of Port Alberin.  The report should briefly summarize the analysis steps you used to conduct the Tsunami Risk Assessment.  Reference your maps where applicable and also reference statistics where necessary (eg. the lenght of different road types in the Inundation Zone).  The report needs to answer these key questions:
+
+1) How many people within Port Alberni and the surrounding area are potentially living in areas at risk?
+<!-- 7,496 -->
+2) Which properties in the city are at risk?  And specifically, how many residential properties are at risk?
+<!-- 977 residential, 1431 total -->
+3) Which roadways are expected to be flooded or damaged in the event of a Tsunami?
+<!-- See Map -->
+4) Does the city need to build more Tusnami Warning Sirens?
+<!-- No, the existing infrastructure is sufficient -->
+5) Are the proposed capacities and locations of the three Tsunami Shelters sufficient?
+<!-- Capacity needs to be approximately doubled or more shelters should be built. -->
 
 Watch the video for pointers on summary tables. (Links to an external site.)
 

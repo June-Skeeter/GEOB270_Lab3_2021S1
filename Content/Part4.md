@@ -42,13 +42,22 @@ Intersect the coastline buffer with the inundation zone. See this link for an ex
 These intersections will tell us the potential maximum population residing within the inundation zone, the total distance of roads that will be subject to flooding, and the number of properties within or partially within the inundation zone.
 
 ## Question 5)
-What is your estimate for the maximum population at risk? Hint: Look at the statistics for the Population column in the Population_at_Risk layer. 
+What is your estimate for the maximum population at risk? *Hint:* Look at the statistics for the Population column in the Population_at_Risk layer.  *Note* the Population column is listed as Value0 in the attribute table.
+<!-- 15,904 -->
 
 ## Question 6)
 Why is the result intersecting the Population_DA_Clip within InundationZone most likely an over esitimate?  Hint: Think about what’s going on with the intersect.  Compare the input with the resulting Population_at_Risk layer. 
 
 ## Question 7)
 Could we have used the clip tool instead of the intersect tool to conduct this analysis?  Base you answer on what you have seen working with the Clip and Intersect tools.  You can also reference the documentation linked above describing both tools for more information. 
+
+## Select the Residential Properties at Risk
+
+Use the ZoningCode.csv file you were given to label identify the zone code for residential and multi-family residential.  Add a select by attribute to your model, to identify the residential properties at risk.  *Hint* Use Or
+
+## Question 8)
+How many residential properties are at risk of Inundation?
+<!-- 699 -->
 
 ## Buffer the Tsunami Warning Sirens and Erase with At Risk Properties
 

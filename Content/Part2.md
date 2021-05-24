@@ -8,22 +8,50 @@ nav_order: 3
 
 ## Data from the City
 
-Port Alberni has provided you with three data files that will be needed for the analysis:
+Port Alberni has provided you with four shapefiles and two text files that will be needed for the analysis:
+* CityBoundaries.shp - Delineates the city boundaries
+* Properties.shp - The boundaries and ZoneCode of all properties in Port Alberni
+* Sirens.shp - The coordinates of the tsunami warning sirens
+* Waterbodies.shp - The boundary of the water bodies in and around the city.
+* Shelters.csv - Text file with the Lat/Lon coordinates of the tsunami warning shelters.
+* ZoningCodes.csv - Text file with the 
 
-1) CityBoundaries.shp - Delineates the city boundaries
+**1)** Create a feature dataset in your Lab3_Project.gdb
+* Creating a feature dataset will help you ensure all your input vector data is in the correct projection.
+* Name the Feature Dataset "PA_Risk_Assessment"
+* Set the coordinate system to NAD 1983 BC Environment Albers
+	* The BC Albers is an equal area projection!
+	* Set the coordinate system as a favorite so you can easily find it later.
+<img src="BC_lbers.png" alt="hi" class="inline"/>
 
-2) Properties.shp - The boundaries and ZoneCode of all properties in Port Alberni
-
-3) Sirens.shp - The coordinates of the tsunami warning sirens
-
-4) Shelters.csv - Text file with the Lat/Lon coordinates of the tsunami warning shelters.
+**2)** Import the three shapefiles from the PA_Data file into 
 
 
-The city hasn’t given you all the data you need to address the questions they’ve asked.  We need to retreive some more layers to complete the project.
+## Question 1)
+Why are we creating a feature dataset to contain our input layers?
+A) No reason
+B) So everything is neatly grouped in one folder
+C) To ensure all our vector data is in the same projection, the feature dataset will automatically re-project our vector data when importing
+C) To ensure all our vector and raster data is in the same projection, the feature dataset will automatically re-project our vector and raster data when importing
+
+## Question 2)
+Why are we using the BC Albers coordinate system?  *Hint* Look back at the questions the city wants us to answers!
+
+The city hasn’t given you all the data you need to address the questions they’ve asked.  We need to retrieve some more layers to complete the project.
 
 ## Downloading Census Data
 
-We need to download Dissemination Area level population data for the Port Alberni [census agglomeration](https://www150.statcan.gc.ca/n1/pub/92-195-x/2011001/geo/cma-rmr/cma-rmr-eng.htm) area using Simply Analytics.  You have access to this platform through the [UBC library](https://www.library.ubc.ca/).  Follow the link, and sign in/create an account.
+We need to download Dissemination Area level population data for the Port Alberni [census agglomeration](https://www150.statcan.gc.ca/n1/pub/92-195-x/2011001/geo/cma-rmr/cma-rmr-eng.htm) area using Simply Analytics.  You have access to this platform through the [UBC library](https://www.library.ubc.ca/).  Find the platform through the library web page, create an account, and sign in.
+
+**1)** Download dissemination area (DA) level population data for the Port Alberni Census Agglomeration area.
+* Create a new project.
+* Search locations for th Port Alberni, BC (CMACA) layer
+* Under Data, choose #Basics | Population 2016.
+* Under View Actions > Export and download the shapefile. 
+
+**2)** Import the data into your feature dataset
+* Once you have downloaded the census data layer, import it into your feature dataset.
+* The file name from simply analytics isn't very descriptive.  Try renaming you layer to ""
 
 <div style="overflow: hidden;
   padding-top: 56.25%;
@@ -40,8 +68,8 @@ We need to download Dissemination Area level population data for the Port Albern
 </div>
 <a href="SA_Access.mp4" target="_blank">View Image in New Tab</a>
 
-## Question 0)
-What is the difference between a Census metropolitan and a census agglomeration area?
+## Question 3)
+What is the difference between a Census metropolitan and a census agglomeration area?  See the link above for details?
 
 ## Download a DEM from Google Earth Engine
 
@@ -63,19 +91,26 @@ We're going to download the [Canadian Digital Elevation Model](https://developer
 	* *Hint* Click Tasks in the top right and run the download.
 * If you'd like to save this script for future use (ie. a final project), click save to save a copy of the layer.
 
-
 ```javascript
 var Rect = ee.Geometry.Rectangle([-125,49, -124.5 ,49.5]);
 
 Export.image.toDrive({
-  image: dataset,
+  image: elevation.mean(),
   description: 'PA_DEM',
   scale: 30,
   region: Rect
 });
 ```
 
-## Downloading Roads & Coastline Data from DataBC
+**3)** Re-project the PA_DEM and save it in your Lab3_Project.gdb
+* Search for the Project Raster tool.
+* Set PA_DEM as the input.
+* Set the coordinate system to BC Albers
+* Name the layer PA_DEM_Project and save it in your Lab3_Project.gdb
+
+<img src="PA_DEM.png" alt="hi" class="inline"/>
+
+## Downloading Roads Data from DataBC
 
 To conduct the analysis, we’ll also need a roads layer.  This data set is available for download from [DataBC](https://www.data.gov.bc.ca/).  Follow the video instructions to inspect the metadata and request a download. 
 
@@ -89,8 +124,11 @@ To conduct the analysis, we’ll also need a roads layer.  This data set is avai
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5jaULGb5ux4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-**3)** Using the same procedure, download coastline data.
-* Search for Coastline
-* Make sure to download the layer titled: "NTS BC Coastline Lines 1:250,000 - Digital Baseline Mapping (NTS)"
+**3)** Extract the .zip files from DataBC and import them into your PA_Risk_Assessment feature dataset
+* The file names from DataBC aren't very descriptive, it might be helpful to change rename them "Roads" and "Coastline".
 
-<img src="Coastline.png" alt="hi" class="inline"/>
+<img src="Roads.png" alt="hi" class="inline"/>
+
+**5)** Before proceeding, ensure your Lab3_Project.gdb has all of the following data layers, stored as shown below.
+
+<img src="gdb.png" alt="hi" class="inline"/>
