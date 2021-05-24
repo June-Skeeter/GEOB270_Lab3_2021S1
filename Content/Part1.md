@@ -37,11 +37,11 @@ In light of this research, the city of Port Alberni submitted an application for
 
 The city wants to know:
 
-    How many people are potentially living in areas at risk?  Specifically how many children and seniors?
-    Which properties in the city are at risk?  And specifically, how many residential properties are at risk?
-    Which roadways are expected to be flooded or damaged in the event of a Tsunami?
-    Does the city need to build more Tusnami Warning Sirens?
-    Are the proposed capacities and locations of the three Tsunami Shelters sufficient?
+1) How many people are potentially living in areas at risk?
+2) Which properties in the city are at risk?  And specifically, how many residential properties are at risk?
+3) Which roadways are expected to be flooded or damaged in the event of a Tsunami?
+4) Does the city need to build more Tusnami Warning Sirens?
+5) Are the proposed capacities and locations of the three Tsunami Shelters sufficient?
 
 
 ## References

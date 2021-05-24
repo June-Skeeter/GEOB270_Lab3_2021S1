@@ -10,21 +10,35 @@ nav_order: 3
 
 Port Alberni has provided you with three data files that will be needed for the analysis:
 
-1) City Boundary - Delineates the city boundaries
+1) CityBoundaries.shp - Delineates the city boundaries
 
-2) ZoningCodes - The boundaries and ZoneCode of all properties in Port Alberni
+2) Properties.shp - The boundaries and ZoneCode of all properties in Port Alberni
 
-3) Tsunami Response Points - Text file with the coordinates of the sirens and shelters.
+3) Sirens.shp - The coordinates of the tsunami warning sirens
+
+4) Shelters.csv - Text file with the Lat/Lon coordinates of the tsunami warning shelters.
 
 
 The city hasn’t given you all the data you need to address the questions they’ve asked.  We need to retreive some more layers to complete the project.
 
 ## Downloading Census Data
 
-We need to download Dissemination Area level population data for the Port Alberni area using [Simply Analytics](https://simplyanalytics.com/).  You have access to this platform through.  Follow the link, and sign in/create an account.
+We need to download Dissemination Area level population data for the Port Alberni area using Simply Analytics.  You have access to this platform through the [UBC library](https://www.library.ubc.ca/).  Follow the link, and sign in/create an account.
 
-Download Full Pop + <15 & >65
-
+<div style="overflow: hidden;
+  padding-top: 56.25%;
+  position: relative">
+  <iframe src="SA_Access.mp4" title="Processes" scrolling="no" frameborder="0"
+    style="border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;">
+   <p>Your browser does not support iframes.</p>
+ </iframe>
+</div>
+<a href="SA_Access.mp4" target="_blank">View Image in New Tab</a>
 
 ## Download a DEM from Google Earth Engine
 
