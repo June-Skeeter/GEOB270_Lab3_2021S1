@@ -37,14 +37,16 @@ In light of this research, the city of Port Alberni submitted an application for
 
 The city wants to know:
 
-1) How much area of the city is at risk for tsunami inundation?
-2) How many people are potentially living in areas at risk?
-3) Which properties in the city are at risk?  And specifically, how many residential properties are at risk?
-4) Which roadways are expected to be flooded or damaged in the event of a Tsunami?
-5) Does the city need to build more Tusnami Warning Sirens?
-6) Are the proposed capacities and locations of the three Tsunami Shelters sufficient?
-
-
+1) How many people within Port Alberni and the surrounding area are potentially living in areas at risk?
+<!-- 7,496 -->
+2) Which properties in the city are at risk?  And specifically, how many residential properties are at risk?
+<!-- 977 residential, 1431 total -->
+3) Which roadways are expected to be flooded or damaged in the event of a Tsunami?
+<!-- See Map -->
+4) Does the city need to build more Tusnami Warning Sirens?
+<!-- No, the existing infrastructure is sufficient -->
+5) Are the proposed capacities and locations of the three Tsunami Shelters sufficient?
+<!-- Capacity needs to be approximately doubled or more shelters should be built. -->
 ## References
 
 Fine, I. V., Cherniawsky, J. Y., Rabinovich, A. B., & Stephenson, F. (2008). Numerical Modeling and Observations of Tsunami Waves in Alberni Inlet and Barkley Sound, British Columbia. Pure and Applied Geophysics, 165(11–12), 2019–2044. https://doi.org/10.1007/s00024-008-0414-9

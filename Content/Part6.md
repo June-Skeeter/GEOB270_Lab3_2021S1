@@ -12,21 +12,21 @@ Create a map showing the roads at risk and the Inundation Zone.  Use the symbolo
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HtsorpP41Cw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Question 9)
+## Question 14)
 Upload Map 1 to canvas.
 
 ## Map 2
 
 Create a map showing the Inundation Zone and the properties at risk (not the output from the properties erase), classified by ZoneCode.  
 
-## Question 10)
+## Question 15)
 Upload Map 2 to canvas.
 
 ## Map 3
 
 Create a map showing the Inundation Zone, Population_at_Risk_Clip layer classified by Population, and the Shelters layer with graduated symbols classified by capacity.
 
-## Question 11)
+## Question 16)
 Upload Map 3 to canvas.
 
 ## Report
@@ -50,5 +50,5 @@ Watch the video for pointers on summary tables. (Links to an external site.)
 You might find it useful to display some statistics as tables.  Make sure the report answers the five questions posed by the City at the beginning of the project and give any recommendations you may have.
 
 
-## Question 12)
+## Question 17)
 Upload your report.

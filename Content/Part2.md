@@ -24,18 +24,16 @@ Port Alberni has provided you with four shapefiles and two text files that will 
 	* Set the coordinate system as a favorite so you can easily find it later.
 <img src="BC_lbers.png" alt="hi" class="inline"/>
 
-**2)** Import the three shapefiles from the PA_Data file into 
+**2)** Import the four shapefiles from the PA_Data file into 
 
 
-## Question 1)
+## Question 4)
 Why are we creating a feature dataset to contain our input layers?
 A) No reason
 B) So everything is neatly grouped in one folder
 C) To ensure all our vector data is in the same projection, the feature dataset will automatically re-project our vector data when importing
-C) To ensure all our vector and raster data is in the same projection, the feature dataset will automatically re-project our vector and raster data when importing
+D) To ensure all our vector and raster data is in the same projection, the feature dataset will automatically re-project our vector and raster data when importing
 
-## Question 2)
-Why are we using the BC Albers coordinate system?  *Hint* Look back at the questions the city wants us to answers!
 
 The city hasn’t given you all the data you need to address the questions they’ve asked.  We need to retrieve some more layers to complete the project.
 
@@ -68,7 +66,7 @@ We need to download Dissemination Area level population data for the Port Albern
 </div>
 <a href="SA_Access.mp4" target="_blank">View Image in New Tab</a>
 
-## Question 3)
+## Question 5)
 What is the difference between a Census metropolitan and a census agglomeration area?  See the link above for details?
 
 ## Download a DEM from Google Earth Engine
@@ -128,7 +126,3 @@ To conduct the analysis, we’ll also need a roads layer.  This data set is avai
 * The file names from DataBC aren't very descriptive, it might be helpful to change rename them "Roads" and "Coastline".
 
 <img src="Roads.png" alt="hi" class="inline"/>
-
-**5)** Before proceeding, ensure your Lab3_Project.gdb has all of the following data layers, stored as shown below.
-
-<img src="gdb.png" alt="hi" class="inline"/>

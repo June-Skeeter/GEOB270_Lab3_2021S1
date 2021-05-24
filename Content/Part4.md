@@ -19,7 +19,7 @@ We will add all the necessary layers to your Map, and open the model.  Note the 
     Waterbodies
     PA_DEM_Clip
 
-## Question 4)
+## Question 6)
 Why are we using model builder for this analysis?
 
 ## Identify the Inundation Zone
@@ -41,26 +41,26 @@ Intersect the coastline buffer with the inundation zone. See this link for an ex
 
 These intersections will tell us the potential maximum population residing within the inundation zone, the total distance of roads that will be subject to flooding, and the number of properties within or partially within the inundation zone.
 
-## Question 5)
+## Question 7)
 What is your estimate for the maximum population at risk? *Hint:* Look at the statistics for the Population column in the Population_at_Risk layer.  *Note* the Population column is listed as Value0 in the attribute table.
 <!-- 15,904 -->
 
-## Question 6)
+## Question 8)
 Why is the result intersecting the Population_DA_Clip within InundationZone most likely an over esitimate?  Hint: Think about what’s going on with the intersect.  Compare the input with the resulting Population_at_Risk layer. 
 
-## Question 7)
+## Question 9)
 Could we have used the clip tool instead of the intersect tool to conduct this analysis?  Base you answer on what you have seen working with the Clip and Intersect tools.  You can also reference the documentation linked above describing both tools for more information. 
-
-## Select the Residential Properties at Risk
-
-Use the ZoningCode.csv file you were given to label identify the zone code for residential and multi-family residential.  Add a select by attribute to your model, to identify the residential properties at risk.  *Hint* Use Or
-
-## Question 8)
-How many residential properties are at risk of Inundation?
-<!-- 699 -->
 
 ## Buffer the Tsunami Warning Sirens and Erase with At Risk Properties
 
 We need to buffer the Sirens layer by 1000m and the Erase that buffer from the Properties_at_Risk to see if there are any properties that are not adequately served by the tsunami warning sirens.  See the docs for the [erase tool](https://pro.arcgis.com/en/pro-app/latest/tool-reference/analysis/erase.htm)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/af2Re9qoVCg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Select the Residential Properties at Risk
+
+Use the ZoningCode.csv file you were given to label identify the zone code for residential and multi-family residential.  Add a select by attribute to your model, to identify the residential properties at risk.  *Hint* Use Or
+
+## Question 10)
+How many residential properties are at risk of Inundation?
+<!-- 699 -->
