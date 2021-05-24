@@ -26,6 +26,6 @@ Just as in Labs 1 & 2, create a new project in ArcPro called Lab3_Project.
 
 ## Download the Lab Data
 
-Now download [the lab data]() and extract the lab3_Data.zip file to your newly created Lab3_Project folder.
+Now download [the lab materials](https://github.com/June-Skeeter/GEOB270_Lab3_2021S1/tree/master/Lab3_Materials).  Extract the lab3_Data.zip file to your newly created Lab3_Project folder.  You will read parts of the two .pdf files for the Framing the problem section. 
 
 

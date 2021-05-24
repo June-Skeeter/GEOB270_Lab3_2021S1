@@ -23,7 +23,7 @@ The city hasnâ€™t given you all the data you need to address the questions theyâ
 
 ## Downloading Census Data
 
-We need to download Dissemination Area level population data for the Port Alberni area using Simply Analytics.  You have access to this platform through the [UBC library](https://www.library.ubc.ca/).  Follow the link, and sign in/create an account.
+We need to download Dissemination Area level population data for the Port Alberni [census agglomeration](https://www150.statcan.gc.ca/n1/pub/92-195-x/2011001/geo/cma-rmr/cma-rmr-eng.htm) area using Simply Analytics.  You have access to this platform through the [UBC library](https://www.library.ubc.ca/).  Follow the link, and sign in/create an account.
 
 <div style="overflow: hidden;
   padding-top: 56.25%;
@@ -40,13 +40,19 @@ We need to download Dissemination Area level population data for the Port Albern
 </div>
 <a href="SA_Access.mp4" target="_blank">View Image in New Tab</a>
 
+## Question 0)
+What is the difference between a Census metropolitan and a census agglomeration area?
+
 ## Download a DEM from Google Earth Engine
 
-We're going to download the [Canadian Digital Elevation Model](https://developers.google.com/earth-engine/datasets/catalog/NRCan_CDEM#description) from Google Earth Engine.  
+We're going to download the [Canadian Digital Elevation Model](https://developers.google.com/earth-engine/datasets/catalog/NRCan_CDEM#description) (CDEM) from Google Earth Engine.  
 
-**1)** Open the GEE Code editor and explore the CAN DEM.
-* Use the link in the docs page to open the code editor and test the sample code they provide.
+**1)** Open the GEE Code editor and explore the CDEM.
+* Use the link above to access the docs page for CDEM.  Midway down the page you will see some sample code and an option to Open the code Editor.
+	* Open the sample code they provide.
 	* Run it and see what happens.
+<img src="GEE.png" alt="hi" class="inline"/>
+
 * Change the coordinates of the Map.setCenter command to (-124, 49, 10).
 	* -124, 49 are longitude and latitude, 10 is the "zoom level" for the display.
 
