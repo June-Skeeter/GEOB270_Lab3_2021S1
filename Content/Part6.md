@@ -49,6 +49,5 @@ Watch the video for pointers on summary tables. (Links to an external site.)
 
 You might find it useful to display some statistics as tables.  Make sure the report answers the five questions posed by the City at the beginning of the project and give any recommendations you may have.
 
-
 ## Question 17)
 Upload your report.
