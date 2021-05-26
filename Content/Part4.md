@@ -11,13 +11,13 @@ We’re going to use a tool called Model Builder to organize and save all of our
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/EieOCReT640" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
  
-We will add all the necessary layers to your Map, and open the model.  Note the layer names listed here may differ from yours depending on your you named them.
-    PA_Roads
-    Sirens
-    Properties
-    Population_DA_Clip
-    Waterbodies
-    PA_DEM_Clip
+We will add all the necessary layers to your Map, and open the model.  Note the layer names listed here may differ from yours depending on what you named them.
+    *PA_Roads
+    *Sirens
+    *Properties
+    *Population_DA_Clip
+    *Waterbodies
+    *PA_DEM_Clip
 
 ## Question 6)
 Why are we using model builder for this analysis?
