@@ -12,12 +12,12 @@ We’re going to use a tool called Model Builder to organize and save all of our
 <iframe width="560" height="315" src="https://www.youtube.com/embed/EieOCReT640" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
  
 We will add all the necessary layers to your Map, and open the model.  Note the layer names listed here may differ from yours depending on what you named them.
-    *PA_Roads
-    *Sirens
-    *Properties
-    *Population_DA_Clip
-    *Waterbodies
-    *PA_DEM_Clip
+* PA_Roads
+* Sirens
+* Properties
+* Population_DA_Clip
+* Waterbodies
+* PA_DEM_Clip
 
 ## Question 6)
 Why are we using model builder for this analysis?
@@ -53,7 +53,7 @@ Could we have used the clip tool instead of the intersect tool to conduct this a
 
 ## Buffer the Tsunami Warning Sirens and Erase with At Risk Properties
 
-We need to buffer the Sirens layer by 1000m and the Erase that buffer from the Properties_at_Risk to see if there are any properties that are not adequately served by the tsunami warning sirens.  See the docs for the [erase tool](https://pro.arcgis.com/en/pro-app/latest/tool-reference/analysis/erase.htm)
+We need to buffer the Sirens layer by 1000m and erase that buffer from the Properties_at_Risk to see if there are any properties that are not adequately served by the tsunami warning sirens.  See the docs for the [erase tool](https://pro.arcgis.com/en/pro-app/latest/tool-reference/analysis/erase.htm)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/af2Re9qoVCg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
