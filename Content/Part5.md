@@ -20,7 +20,9 @@ Just as you’re getting ready to make your maps, and write your report, you get
 
 ## Question 11)
 What is the total shape_area of your InundationZone layer?
-<!-- 12,602,728.8 -->
+<!-- Me: 16,219,855.5 -->
+<!--Tin: 14,313,363.5 -->
+<!--Avinash: 16,219,855.5 -->
 
 ## Question 12)
 This isn't the total area within the MunicipalBoundary that is at risk however.  Why?  What would you need do to figure out the total area within the MunicipalBoundary at risk?

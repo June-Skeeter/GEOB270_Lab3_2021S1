@@ -35,7 +35,7 @@ Convert the reclassified DEM to a polygon. See this link for info on the [Raster
 Buffer the waterbodies by 1km to identify the areas.
 Intersect the coastline buffer with the inundation zone. See this link for an explanation of the [Intersect tool](https://pro.arcgis.com/en/pro-app/latest/tool-reference/analysis/intersect.htm).
 
-## Intersect the Inundation Zone with the DAs, properties, and Roads layers
+## Clip / intersect the Inundation Zone with the DAs, properties, and Roads layers
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/LsUyoUXW5tg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -43,13 +43,15 @@ These intersections will tell us the potential maximum population residing withi
 
 ## Question 7)
 What is your estimate for the maximum population at risk? *Hint:* Look at the statistics for the Population column in the Population_at_Risk layer.  *Note* the Population column is listed as Value0 in the attribute table.
-<!-- 15,904 -->
+<!--Me: 15,904 -->
+<!--Avinash: 15149 -->
+<!--Tin: 12,767 -->
 
 ## Question 8)
 Why is the result intersecting the Population_DA_Clip within InundationZone most likely an over esitimate?  Hint: Think about what’s going on with the intersect.  Compare the input with the resulting Population_at_Risk layer. 
 
 ## Question 9)
-Could we have used the clip tool instead of the intersect tool to conduct this analysis?  Base you answer on what you have seen working with the Clip and Intersect tools.  You can also reference the documentation linked above describing both tools for more information. 
+What is the difference between the clip tool and the intersect tool?  You can refer to the lecture video on [vector overlay analysis](https://www.youtube.com/watch?v=jkjVX97Xtcc) and compare the outputs from your intersect (InundationZone) with the outputs from the clips (eg. Population_at_Risk).  *Hint* Look at the attribute tables of the input and output layers.
 
 ## Buffer the Tsunami Warning Sirens and Erase with At Risk Properties
 
@@ -63,4 +65,6 @@ Use the ZoningCode.csv file you were given to label identify the zone code for r
 
 ## Question 10)
 How many residential properties are at risk of Inundation?
-<!-- 699 -->
+<!--Me: 699 -->
+<!--Tin: 696  -->
+<!--Avinash: 673 (zone 2) -->

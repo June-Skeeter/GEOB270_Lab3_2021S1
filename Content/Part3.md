@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Parse Data
+title: Prepare Data
 nav_order: 4
 ---
 

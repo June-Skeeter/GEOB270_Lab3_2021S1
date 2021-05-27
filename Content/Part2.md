@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Acquire Data
+title: Identify and Acquire Data
 nav_order: 3
 ---
 
