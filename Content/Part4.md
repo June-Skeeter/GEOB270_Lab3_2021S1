@@ -9,31 +9,29 @@ nav_order: 5
 ## Automating our Analysis with Model Builder
 We’re going to use a tool called Model Builder to organize and save all of our analysis steps in one place.  When we use model builder, if any of our inputs or parameters change, a model can be easily adjusted and rerun at any time.  It also allows us to visualize our analysis process.  This is useful both for editing our own work and sharing it with others.  For a more detailed explanation of Model Builder, check out [this link](https://pro.arcgis.com/en/pro-app/latest/help/analysis/geoprocessing/modelbuilder/modelbuilder-quick-tour.htm).
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/EieOCReT640" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
- 
-We will add all the necessary layers to your Map, and open the model.  Note the layer names listed here may differ from yours depending on what you named them.
-* PA_Roads
-* Sirens
-* Properties
-* Population_DA_Clip
-* Waterbodies
-* PA_DEM_Clip
-
 ## Question 6)
 Why are we using model builder for this analysis?
 
+To get started, add all the necessary layers to your Map.  Note the layer names listed here may differ from yours depending on what you named them.
+* PA_Roads_Clip
+* Sirens
+* Shelters
+* Properties
+* Population_DA_Clip
+* Waterbodies
+* PA_DEM_Project_Clip
+
 ## Identify the Inundation Zone
 
-Our criteria for land areas at risk for flooding are: land at or below 10 m elevation and within 1km of the coastline.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/IcK349lACUM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-In order to identify the land areas in Port Alberni at risk for inundation zone, we need to do four tasks:
+Our criteria for land areas at risk for flooding are: land at or below 10 m elevation and within 1km of the coastline.  In order to identify the land areas in Port Alberni at risk for inundation zone, we need to do four tasks:
 
 Reclassify the PA_DEM to identify all the areas under 10m elevation. See this link for info on the [Reclassify tool](https://pro.arcgis.com/en/pro-app/latest/tool-reference/spatial-analyst/reclassify.htm).
 Convert the reclassified DEM to a polygon. See this link for info on the [Raster to Polygon Tool](https://pro.arcgis.com/en/pro-app/latest/tool-reference/conversion/raster-to-polygon.htm).
 Buffer the waterbodies by 1km to identify the areas.
 Intersect the coastline buffer with the inundation zone. See this link for an explanation of the [Intersect tool](https://pro.arcgis.com/en/pro-app/latest/tool-reference/analysis/intersect.htm).
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IcK349lACUM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Clip the Inundation Zone with the Population_DAs, Properties, and Roads layers
 
@@ -70,10 +68,7 @@ Why are we using the OR operator if we want both multi AND single family residen
 
 ## Question 11)
 How many residential properties are at risk of Inundation?
-<<<<<<< HEAD
+
 <!--Me: 699 -->
 <!--Tin: 696  -->
 <!--Avinash: 673 (zone 2) -->
-=======
-<!-- 699 -->
->>>>>>> 48b90a4c74b010d117b41cd845a5d30e2b84815f
