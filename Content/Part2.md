@@ -49,7 +49,7 @@ We need to download Dissemination Area level population data for the Port Albern
 
 **2)** Import the data into your feature dataset
 * Once you have downloaded the census data layer, import it into your feature dataset.
-* The file name from simply analytics isn't very descriptive.  Try renaming you layer to ""
+* The file name from simply analytics isn't very descriptive.  Try renaming you layer to "population_DA"
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gX8AZbZq9Og" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
