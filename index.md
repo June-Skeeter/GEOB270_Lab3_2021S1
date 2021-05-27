@@ -6,10 +6,7 @@ nav_order: 1
 
 # Lab 3 Introduction
 
-## Scenario
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/gxQCvtlUaZA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OArK8d_stDM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Learning Objectives:
 
@@ -21,8 +18,7 @@ nav_order: 1
 
 ## Getting Started
 
-**1)** Just as in Labs 1 & 2, create a new project in ArcPro called Lab3_Project.
-
+Just as in Labs 1 & 2, create a new project in ArcPro called Lab3_Project.
 
 ## Download the Lab Data
 

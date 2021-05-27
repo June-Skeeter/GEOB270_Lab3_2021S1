@@ -32,7 +32,7 @@ Upload Map 2 to canvas.
 
 ## Map 3
 
-Create a map showing the Inundation Zone, Population_at_Risk_Clip layer classified by Population, and the Shelters layer with graduated symbols classified by capacity.
+Create a map showing the Inundation Zone, Population_at_Risk_Clip layer classified by Population, and the Shelters layer with graduated symbols classified by capacity (reference lab 1 if you forgot how to do graduated point symbols).
 
 ## Question 17)
 Upload Map 3 to canvas.
@@ -56,4 +56,4 @@ Write a brief (1-2 page) report for the City of Port Alberin.  The report should
 <!-- Capacity needs to be increased or more shelters should be built. -->
 
 ## Question 18)
-Upload your report.
+Upload your report to canvas.

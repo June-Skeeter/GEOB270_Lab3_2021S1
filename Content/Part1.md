@@ -17,7 +17,7 @@ It wasn’t until the 1990’s that scientific research began to shown that the 
 This example highlights both the arrogance of the scientific community and the lack of value it has historically attributed to traditional knowledge.
 
 ## Question 1)
-What does the above example presented in Ludwin et al. 2005 say about the value that the sciences have historically attributed to traditional knowledge in when it comes to understanding our world? 
+What does the example presented in Ludwin et al. 2005 say about the value that the sciences have historically attributed to traditional knowledge in when it comes to understanding our world? 
 
 ## Unique Geography
 

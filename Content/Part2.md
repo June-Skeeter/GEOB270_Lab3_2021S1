@@ -49,7 +49,7 @@ We need to download Dissemination Area level population data for the Port Albern
 
 **2)** Import the data into your feature dataset
 * Once you have downloaded the census data layer, import it into your feature dataset.
-* The file name from simply analytics isn't very descriptive.  Try renaming you layer to "population_DA"
+* The file name from simply analytics isn't very descriptive.  Rename the layer to "Population_DA"
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gX8AZbZq9Og" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -105,7 +105,7 @@ To conduct the analysis, we’ll also need a roads layer.  This data set is avai
 	* Whenever downloading data, it is crucial to check the metadata
     * Check your email for the download link (this may take a few minutes).
 **2)** Download the data and add it to your PA_Data folder in your PA_RiskAssesment project.
-* The layer name isn't very descriptive.  Consider renaming it Roads!
+* The layer name isn't very descriptive.  Name it PA_Roads
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5jaULGb5ux4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
