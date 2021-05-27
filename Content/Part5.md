@@ -18,18 +18,18 @@ Add a select by attribute (select for the residential zone codes) the clip to yo
 ## Updated Projections
 Just as you’re getting ready to make your maps, and write your report, you get a message on Slack from a colleague.  She tells you about a new modeling study that was just published suggests that peak wave height could be up to 15 meters and the wave could reach 1250m inland rather than 1000m.  Update your raster reclassification values and the coastline buffer distance to reflect this new information and rerun your model to update your analysis!
 
-## Question 11)
+## Question 12)
 What is the total shape_area of your InundationZone layer?
 <!-- Me: 16,219,855.5 -->
 <!--Tin: 14,313,363.5 -->
 <!--Avinash: 16,219,855.5 -->
 
-## Question 12)
+## Question 13)
 This isn't the total area within the MunicipalBoundary that is at risk however.  Why?  What would you need do to figure out the total area within the MunicipalBoundary at risk?
 
 ## Share Your Model
 
 Your supervisor wants to have a quick look at your workflow before you start to draft your report.  In your model window, hit Auto Layout one more time.  Then click export and save your model as PA_RiskAssesment.pdf  Note Make sure you save your output as a .pdf, not a .svg file!
 
-## Question 13)
+## Question 14)
 "Email" a copy of your workflow to your supervisor by uploading it here!

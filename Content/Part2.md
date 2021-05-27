@@ -44,27 +44,14 @@ We need to download Dissemination Area level population data for the Port Albern
 **1)** Download dissemination area (DA) level population data for the Port Alberni Census Agglomeration area.
 * Create a new project.
 * Search locations for th Port Alberni, BC (CMACA) layer
-* Under Data, choose #Basics | Population 2016.
+* Under Data, choose #Basics Population 2016.
 * Under View Actions > Export and download the shapefile. 
 
 **2)** Import the data into your feature dataset
 * Once you have downloaded the census data layer, import it into your feature dataset.
 * The file name from simply analytics isn't very descriptive.  Try renaming you layer to ""
 
-<div style="overflow: hidden;
-  padding-top: 56.25%;
-  position: relative">
-  <iframe src="SA_Access.mp4" title="Processes" scrolling="no" frameborder="0"
-    style="border: 0;
-   height: 100%;
-   left: 0;
-   position: absolute;
-   top: 0;
-   width: 100%;">
-   <p>Your browser does not support iframes.</p>
- </iframe>
-</div>
-<a href="SA_Access.mp4" target="_blank">View Image in New Tab</a>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gX8AZbZq9Og" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Question 5)
 What is the difference between a Census metropolitan and a census agglomeration area?  See the link above for details?

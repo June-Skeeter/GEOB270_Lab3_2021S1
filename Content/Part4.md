@@ -35,11 +35,11 @@ Convert the reclassified DEM to a polygon. See this link for info on the [Raster
 Buffer the waterbodies by 1km to identify the areas.
 Intersect the coastline buffer with the inundation zone. See this link for an explanation of the [Intersect tool](https://pro.arcgis.com/en/pro-app/latest/tool-reference/analysis/intersect.htm).
 
-## Clip / intersect the Inundation Zone with the DAs, properties, and Roads layers
+## Clip the Inundation Zone with the Population_DAs, Properties, and Roads layers
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/LsUyoUXW5tg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Now that we have the Inundation Zone created, use the clip tool to identify the portions of the Population_DA, Properties, and Roads layers that are that are within the Inundation Zone.  These outputs are important, so we'll give them specific names so we can refer to them later.  Name the outputs Population_at_Risk, Properties_at_Risk, and Roads_at_Risk.
 
-These intersections will tell us the potential maximum population residing within the inundation zone, the total distance of roads that will be subject to flooding, and the number of properties within or partially within the inundation zone.
+<img src="Clip.png" alt="hi" class="inline"/>
 
 ## Question 7)
 What is your estimate for the maximum population at risk? *Hint:* Look at the statistics for the Population column in the Population_at_Risk layer.  *Note* the Population column is listed as Value0 in the attribute table.
@@ -61,9 +61,14 @@ We need to buffer the Sirens layer by 1000m and the Erase that buffer from the P
 
 ## Select the Residential Properties at Risk
 
-Use the ZoningCode.csv file you were given to label identify the zone code for residential and multi-family residential.  Add a select by attribute to your model, to identify the residential properties at risk.  *Hint* Use Or
+Use the ZoningCode.csv file you were given to label identify the zone code for residential and multi-family residential.  Add a select by attribute to your model, to identify the residential properties at risk.  *Hint* Make sure to select for both residential types (Multi family/Single family) using the OR operator.
+
+<img src="Selection.png" alt="hi" class="inline"/>
 
 ## Question 10)
+Why are we using the OR operator if we want both multi AND single family residential properties?
+
+## Question 11)
 How many residential properties are at risk of Inundation?
 <!--Me: 699 -->
 <!--Tin: 696  -->
