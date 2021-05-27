@@ -30,8 +30,7 @@ Convert the reclassified DEM to a polygon. See this link for info on the [Raster
 Buffer the waterbodies by 1km to identify the areas.
 Intersect the coastline buffer with the inundation zone. See this link for an explanation of the [Intersect tool](https://pro.arcgis.com/en/pro-app/latest/tool-reference/analysis/intersect.htm).
 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/IcK349lACUM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NZ72ppS89Zs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Clip the Inundation Zone with the Population_DAs, Properties, and Roads layers
 
@@ -40,10 +39,8 @@ Now that we have the Inundation Zone created, use the clip tool to identify the 
 <img src="Clip.png" alt="hi" class="inline"/>
 
 ## Question 7)
-What is your estimate for the maximum population at risk? *Hint:* Look at the statistics for the Population column in the Population_at_Risk layer.  *Note* the Population column is listed as Value0 in the attribute table.
-<!--Me: 15,904 -->
-<!--Avinash: 15149 -->
-<!--Tin: 12,767 -->
+What is your estimate for the maximum population at risk?  The Population column is listed as Value0 in the attribute table.  *Hint:* Look at the statistics for the column to quickly calculate the sum.  **Note** because of the complexity of this lab, for the numeric answers, I will determine a margin of error based on everyone's answers and give partial credit.  For now the margins have been set to zero, but that will change when we mark the lab.
+<!-- 8,820 -->
 
 ## Question 8)
 Why is the result intersecting the Population_DA_Clip within InundationZone most likely an over esitimate?  Hint: Think about what’s going on with the intersect.  Compare the input with the resulting Population_at_Risk layer. 
@@ -68,7 +65,4 @@ Why are we using the OR operator if we want both multi AND single family residen
 
 ## Question 11)
 How many residential properties are at risk of Inundation?
-
-<!--Me: 699 -->
-<!--Tin: 696  -->
-<!--Avinash: 673 (zone 2) -->
+<!-- 690 -->
