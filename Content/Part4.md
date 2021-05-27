@@ -61,7 +61,7 @@ We need to buffer the Sirens layer by 1000m and the Erase that buffer from the P
 
 ## Select the Residential Properties at Risk
 
-Use the ZoningCode.csv file you were given to label identify the zone code for residential and multi-family residential.  Add a select by attribute to your model, to identify the residential properties at risk.  *Hint* Make sure to select for both residential types (Multi family/Single family) using the OR operator.
+Use the ZoningCode.csv file you were given to label identify the zone code for residential and multi-family residential.  Search for Select by Attribute in the geoprocessing pane and to your model, to identify the residential properties at risk.  *Hint* Make sure to select for both residential types (Multi family/Single family) using the OR operator.
 
 <img src="Selection.png" alt="hi" class="inline"/>
 
