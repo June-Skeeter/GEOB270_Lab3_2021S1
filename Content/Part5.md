@@ -32,15 +32,15 @@ Watch the video for pointers on summary tables.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/C--8LGmxe08" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-## Question 15)
+## Question 14)
 How many people within Port Alberni and the surrounding area are potentially living in areas at risk?
 <!-- 6,474 -->
 
-## Question 16)
+## Question 15)
 How many residential properties are at risk?
 <!-- 971 residential -->
 
-## Question 17)
+## Question 16)
 How many kilometers of arterial roadways are at risk for flooding?
 <!-- 8432.38108989368 -->
 

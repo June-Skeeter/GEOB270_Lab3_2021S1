@@ -34,7 +34,7 @@ Intersect the coastline buffer with the inundation zone. See this link for an ex
 
 ## Clip the Inundation Zone with the Population_DAs, Properties, and Roads layers
 
-Now that we have the Inundation Zone created, use the clip tool to identify the portions of the Population_DA, Properties, and Roads layers that are that are within the Inundation Zone.  These outputs are important, so we'll give them specific names so we can refer to them later.  Name the outputs Population_at_Risk, Properties_at_Risk, and Roads_at_Risk.
+Now that we have the Inundation Zone created, use the clip tool to identify the portions of the Population_DA_Clip, Properties, and Roads_Clip layers that are that are within the Inundation Zone.  These outputs are important, so we'll give them specific names so we can refer to them later.  Name the outputs Population_at_Risk, Properties_at_Risk, and Roads_at_Risk.
 
 <img src="Clip.png" alt="hi" class="inline"/>
 
