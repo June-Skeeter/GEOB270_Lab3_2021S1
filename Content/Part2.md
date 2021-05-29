@@ -24,7 +24,7 @@ Port Alberni has provided you with four shapefiles and two text files that will 
 	* Set the coordinate system as a favorite so you can easily find it later.
 <img src="BC_lbers.png" alt="hi" class="inline"/>
 
-**2)** Import the four shapefiles from the PA_Data file into 
+**2)** Import the four shapefiles from the PA_Data file into PA_Risk_Assessment feature dataset.
 
 
 ## Question 4)
