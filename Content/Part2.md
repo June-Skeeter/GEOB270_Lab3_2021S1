@@ -34,6 +34,7 @@ B) So everything is neatly grouped in one folder
 C) To ensure all our vector data is in the same projection, the feature dataset will automatically re-project our vector data when importing
 D) To ensure all our vector and raster data is in the same projection, the feature dataset will automatically re-project our vector and raster data when importing
 
+<!-- C -->
 
 The city hasn’t given you all the data you need to address the questions they’ve asked.  We need to retrieve some more layers to complete the project.
 
@@ -55,6 +56,9 @@ We need to download Dissemination Area level population data for the Port Albern
 
 ## Question 5)
 What is the difference between a Census metropolitan and a census agglomeration area?  See the link above for details?
+
+<!-- CMA is for dense metro 100,000+, CA is less dense area 10,000+ -->
+
 
 ## Download a DEM from Google Earth Engine
 

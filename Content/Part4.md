@@ -12,6 +12,8 @@ We’re going to use a tool called Model Builder to organize and save all of our
 ## Question 6)
 Why are we using model builder for this analysis?
 
+<!-- 1) Repeatable 2) changeable 3) Visualize process 4) share workflow -->
+
 To get started, add all the necessary layers to your Map.  Note the layer names listed here may differ from yours depending on what you named them.
 * PA_Roads_Clip
 * Sirens
@@ -40,13 +42,18 @@ Now that we have the Inundation Zone created, use the clip tool to identify the 
 
 ## Question 7)
 What is your estimate for the maximum population at risk?  The Population column is listed as Value0 in the attribute table.  *Hint:* Look at the statistics for the column to quickly calculate the sum.  **Note** because of the complexity of this lab, for the numeric answers, I will determine a margin of error based on everyone's answers and give partial credit.  For now the margins have been set to zero, but that will change when we mark the lab.
+
 <!-- 8,820 -->
 
 ## Question 8)
 Why is the result intersecting the Population_DA_Clip within InundationZone most likely an over esitimate?  Hint: Think about what’s going on with the intersect.  Compare the input with the resulting Population_at_Risk layer. 
 
+<!-- Because were counting all ppl in any DA that even just a has a sliver in the inundation zone -->
+
 ## Question 9)
 What is the difference between the clip tool and the intersect tool?  You can refer to the lecture video on [vector overlay analysis](https://www.youtube.com/watch?v=jkjVX97Xtcc) and compare the outputs from your intersect (InundationZone) with the outputs from the clips (eg. Population_at_Risk).  *Hint* Look at the attribute tables of the input and output layers.
+
+<!-- Clip is like cookie cutter (just cuts away areas), intersect keeps where two layers overlap &&& combines attributes  -->
 
 ## Buffer the Tsunami Warning Sirens and Erase with At Risk Properties
 
@@ -63,6 +70,9 @@ Use the ZoningCode.csv file you were given to label identify the zone code for r
 ## Question 10)
 Why are we using the OR operator if we want both multi AND single family residential properties?
 
+<!-- and is only for selecting for conditions between columns, because a property can only have one zone value.  it can be single and multi family  Or can be used within.   -->
+
 ## Question 11)
 How many residential properties are at risk of Inundation?
+
 <!-- 690 -->

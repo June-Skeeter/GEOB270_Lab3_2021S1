@@ -19,6 +19,8 @@ This example highlights both the arrogance of the scientific community and the l
 ## Question 1)
 What does the example presented in Ludwin et al. 2005 say about the value that the sciences have historically attributed to traditional knowledge in when it comes to understanding our world? 
 
+<!-- The sciences have tended to have a bias against and non-white/colonial/male knowledge/sources -->
+
 ## Unique Geography
 
 On March 28th, 1964 a megathrust earthquake (9.2 magnitude on the Richter scale) occurred in southern Alaska.  Known as the “Good Friday” earthquake, it was responsible for 131 deaths: 9 from the earthquake itself, and 122 from the subsequent Tsunami, reaching as far away as Crescent City, California.  In British Columbia, the Tsunami’s impacts were most devastating in Port Alberni, where 55 homes were washed away and 375 more were damaged.  Port Alberni is especially vulnerable to Tsunamis because of its specific geography.  Located at the head of 40km long fjord, Tsunami waves are amplified as they are funneled up the fjord.  Read the highlighted portions of the introduction section in Fine et al (2008) that was provided in the Lab3_Data folder for some context.  You can also watch the Simulation shown below for a visualization of what is going on.
@@ -28,8 +30,13 @@ On March 28th, 1964 a megathrust earthquake (9.2 magnitude on the Richter scale)
 ## Question 2)
 The maximum wave height recorded at Tofino was only ____ meters.  Despite this, wave heights exceeded 8 meters in Port Alberni.  
 
+<!-- 2.4 -->
+
+
 ## Question 3)
 Look back at Ludwin et al. 2005, specifically at the story of Pachena Bay (bottom pg 142 to top of pg 143).  You can find a [full transcription here](https://pnsn.org/outreach/native-american-stories/other-stories/the-tsunami-at-anaqtl-a-or-pachena-bay).  Find Pachena Bay on google maps.  Where is it relative to Port Alberni?  What can you infer from this story about how a megathrust earthquake occurring just off of the coast of Vancouver Island would impact Port Alberni? 
+
+<!-- The whole village was destroyed.  Only ppl up high on the hill survived.  The bay has a shorter but similar shape to the alberni inlet.  An equivalent earthquake would be VERY bad. -->
 
 ## Defining the Project Area
 
@@ -38,15 +45,11 @@ In light of this research, the city of Port Alberni submitted an application for
 The city wants to know:
 
 1) How many people within Port Alberni and the surrounding area are potentially living in areas at risk?
-<!-- 7,496 -->
 2) Which properties in the city are at risk?  And specifically, how many residential properties are at risk?
-<!-- 977 residential, 1431 total -->
 3) Which roadways are expected to be flooded or damaged in the event of a Tsunami?
-<!-- See Map -->
 4) Does the city need to build more Tusnami Warning Sirens?
-<!-- No, the existing infrastructure is sufficient -->
 5) Are the proposed capacities and locations of the three Tsunami Shelters sufficient?
-<!-- Capacity needs to be approximately doubled or more shelters should be built. -->
+
 ## References
 
 Fine, I. V., Cherniawsky, J. Y., Rabinovich, A. B., & Stephenson, F. (2008). Numerical Modeling and Observations of Tsunami Waves in Alberni Inlet and Barkley Sound, British Columbia. Pure and Applied Geophysics, 165(11–12), 2019–2044. https://doi.org/10.1007/s00024-008-0414-9
