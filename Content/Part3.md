@@ -31,7 +31,7 @@ You can also reference the ESRI documentation for the [buffer tool](https://pro.
 ## Clip the Data.
 The next step is to clip the rest of the data layers by the boundaries of the MunicipalBoundary_Buffer
 The Siren and Properties are already only within the study area so we don’t need to worry about them.
-We need to clip the Population_DA.shp, roads, coastlines and PA_DEM.tif to “cut them down to size”..
+We need to clip the Population_DA.shp, roads and PA_DEM.tif to “cut them down to size”..
 Follow the video instructions to clip both vector and raster layers. Once you've clipped the data, you can remove the non-clipped layers & the municipal boundary from the table of contents to make things a bit more organized.
  
 You can also reference the ESRI documentation for the [clipping vectors](https://pro.arcgis.com/en/pro-app/latest/tool-reference/analysis/clip.htm) and [clipping rasters](https://pro.arcgis.com/en/pro-app/latest/tool-reference/data-management/clip.htm)
